@@ -400,8 +400,7 @@ def validate_duplicate_phone(self, method=None):
         )
 #heba
 
-@frappe.whitelist()
-@frappe.cache()
+
 from typing import Optional
 
 def get_permission_query_conditions_for_crm_lead(user):
