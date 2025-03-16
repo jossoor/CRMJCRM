@@ -1,0 +1,503 @@
+ 
+ (New)
+,!0),r(Le,{modelValue:R.value,"onUpdate:modelValue":e[8]||(e[8]=l=>R.value=l),organization:q.value,"onUpdate:organization":e[9]||(e[9]=l=>q.value=l),options:{redirect:!1,afterInsert:l=>k("organization",l.name)}},null,8,["modelValue","organization","options"]),r(Oe,{modelValue:L.value,"onUpdate:modelValue":e[10]||(e[10]=l=>L.value=l),contact:P.value,options:{redirect:!1,afterInsert:l=>W(l.name)}},null,8,["modelValue","contact","options"]),A.value?(i(),v(je,{key:3,modelValue:A.value,"onUpdate:modelValue":e[11]||(e[11]=l=>A.value=l),assignees:t(o).data._assignedTo,"onUpdate:assignees":e[12]||(e[12]=l=>t(o).data._assignedTo=l),doc:t(o).data,doctype:"CRM Deal"},null,8,["modelValue","assignees","doc"])):_(
+,!0),t(C).data?(i(),m("div",ma,[u("div",ua,[(i(!0),m(F,null,ae(t(C).data,(d,H)=>(i(),m("div",{key:d.label,class:T(["flex flex-col px-2 py-3 sm:p-3",{"border-b":H!==t(C).data.length-1}])},[r(Z,{"is-opened":d.opened,label:d.label},{actions:c(()=>[d.contacts?(i(),m("div",pa,[r(Pe,{value:
+,!0)]))),128)):(i(),m("div",Ia,S(a.__("No contacts added")),1))]))]}),_:2},1032,["is-opened","label"])],2))),128))])])):_(
+,!0)]),_:1},8,["items"]),u("div",la,[r(t(oe),{options:t(ie)("deal",k,O.value)},{default:c(({open:l})=>[r(n,{label:t(o).data.status,class:T(t(re)(t(o).data.status).colorClass)},{prefix:c(()=>[r(Te)]),suffix:c(()=>[r(s,{name:l?"chevron-up":"chevron-down",class:"h-4"},null,8,["name"])]),_:2},1032,["label","class"])]),_:1},8,["options"])])])]),_:1})):_(
+,!0)]),default:c(()=>{var g,D,J;return[d.fields?(i(),v(Ee,{key:0,fields:d.fields,isLastSection:H==t(C).data.length-1,modelValue:t(o).data,"onUpdate:modelValue":e[3]||(e[3]=p=>t(o).data=p),onUpdate:k},null,8,["fields","isLastSection","modelValue"])):(i(),m("div",_a,[(g=t(w))!=null&&g.loading&&((J=(D=t(w))==null?void 0:D.data)==null?void 0:J.length)==0?(i(),m("div",fa,[r(ke,{class:"h-4 w-4"}),u("span",null,S(a.__("Loading...")),1)])):d.contacts.length?(i(!0),m(F,{key:1},ae(d.contacts,(p,K)=>(i(),m("div",{key:p.name},[u("div",{class:T(["px-2 pb-2.5",[K==0?"pt-5":"pt-2.5"]])},[r(Z,{"is-opened":p.opened},{header:c(({opened:ge,toggle:Q})=>[u("div",va,[u("div",{class:"flex h-7 items-center gap-2 truncate",onClick:X=>Q()},[r(t(Ke),{label:p.full_name,image:p.image,size:"md"},null,8,["label","image"]),u("div",ya,S(p.full_name),1),p.is_primary?(i(),v(I,{key:0,class:"ml-2",variant:"outline",label:a.__("Primary"),theme:"green"},null,8,["label"])):_(
+01/04/2024 11:30 PM
+<p>Dear {{ lead_name }},</p>||||||<p>This is a reminder for the payment of {{ grand_total }}.</p>||||||<p>Thanks,</p>|||<p>Frappé</p>
+@John, can you please check this?
+About
+Accept
+Accept Invitation
+Accepted
+Accepted At
+Account SID
+Add Field
+Add Filter
+Add Section
+Add Sort
+Add Weekly Holidays
+Add to Holidays
+Agent is unavailable to take the call, please call after some time.
+Amount
+And
+Annual Revenue
+Annual Revenue should be a number
+Apply
+Apply On
+Apply To
+Apps
+Are you sure you want to clear assignment for {0} item(s)?
+Are you sure you want to convert {0} Lead(s) to Deal(s)?
+Are you sure you want to delete "{0}" view?
+Are you sure you want to delete this attachment?
+Are you sure you want to delete this contact?
+Are you sure you want to delete this organization?
+Are you sure you want to delete this task?
+Are you sure you want to delete {0} item(s)?
+Are you sure you want to make this attachment {0}?
+Are you sure you want to reset 'Create Quotation from CRM Deal' Form Script?
+Assignment cleared successfully
+Attach a file
+Auth Token
+Automatic Assignment
+BCC
+Back
+Back to file upload
+Backlog
+Budget
+Bulk Edit
+Busy
+CRM
+CRM Call Log
+CRM Communication Status
+CRM Contacts
+CRM Deal
+CRM Deal Status
+CRM Fields Layout
+CRM Form Script
+CRM Holiday
+CRM Holiday List
+CRM Industry
+CRM Invitation
+CRM Lead
+CRM Lead Kanban
+CRM Lead Source
+CRM Lead Status
+CRM Notification
+CRM Organization
+CRM Service Day
+CRM Service Level Agreement
+CRM Service Level Priority
+CRM Status Change Log
+CRM Task
+CRM Territory
+CRM View Settings
+CRM-DEAL-.YYYY.-
+CRM-LEAD-.YYYY.-
+CSV
+Call Details
+Call Received By
+Call with John Doe
+Caller
+Calling...
+Calls
+Canceled
+Capture
+Change Status
+Change image
+Choose Existing
+Choose Existing Contact
+Choose Existing Organization
+Clear Assignment
+Clear Sort
+Clear Table
+Clear all Filter
+Close Date
+Column Field
+Communication Status
+Company in ERPNext Site
+Computer
+Contact Already Exists
+Contact Us
+Contact added
+Contact already exists with {0}
+Contact not found
+Contact removed
+Contacts
+Convert
+Convert to Deal
+Converted
+Converted successfully
+Create Deal
+Create Email Template
+Create Lead
+Create Note
+Create Task
+Create View
+Create customer on status change
+Create lead
+Customer created successfully
+Deal
+Deal Owner
+Deal Status
+Deal not found
+Deal owner
+Deal updated
+Deals
+Dear {{ lead_name }}, ||||||This is a reminder for the payment of {{ grand_total }}. ||||||Thanks, |||Frappé
+Default Priority
+Default Service Level Agreement already exists for {0}
+Default Views
+Default statuses, custom fields and layouts restored successfully.
+Delete & Restore
+Delete Task
+Delete View
+Delete attachment
+Delete contact
+Delete organization
+Deleted successfully
+Demo/Making
+Desk
+Device
+Dialog
+Disable
+DocType
+Docs
+Document not found
+Documentation
+Done
+Drag and drop files here or upload from
+Drop files here
+Duplicate View
+Duplicated
+Duplicated Lead
+ERPNext
+ERPNext CRM Settings
+ERPNext Settings
+ERPNext Settings updated
+ERPNext Site URL
+ERPNext is not installed in the current site
+ERPNext is not integrated with the CRM
+Edit Field Layout
+Edit Note
+Edit Profile Photo
+Edit Quick Entry Layout
+Edit Task
+Edit View
+Edit profile
+Email Sent At
+Email Templates
+Email from Lead
+Emails
+Empty
+Empty - Choose a field to filter by
+Empty - Choose a field to sort by
+End Time
+Enter {0}
+Error Updating Deal
+Error Updating Lead
+Error updating deal
+Error updating lead
+Error while creating customer in ERPNext, check error log for more details
+Error while creating prospect in ERPNext, check error log for more details
+Error while fetching customer in ERPNext, check error log for more details
+ErrorMessage
+Export All {0} Record(s)
+FCRM
+FCRM Note
+FCRM Settings
+Facilities
+Facility
+Failed to capture Twilio recording
+Failed to update Twilio call status
+FeedBack
+Fields Order
+File "{0}" was skipped because of invalid file type
+File "{0}" was skipped because only {1} uploads are allowed
+File "{0}" was skipped because only {1} uploads are allowed for DocType "{2}"
+File "{0}" was skipped because size exceeds {1} MB
+Filter Duplicated Leads
+First Name is mandatory
+First Responded On
+First Response Due
+First Response TIme
+First Response Time
+First name
+Follow Up
+Form
+Form Script updated successfully
+FormControl
+Frappe School
+Frappe Support
+Fulfilled
+Go to website
+Group By Field
+Group By: 
+Hide Recording
+Hide preview
+Holiday List
+Holiday List Name
+Holidays
+In Import
+In less than a minute
+Inbound Call
+Incoming
+Incoming call...
+Industry
+Initiated
+Initiating call...
+Invalid Account SID or Auth Token.
+Invalid Email
+Invite Members
+Invite as
+Invite by email
+Invited By
+Is Duplicated
+Is ERPNext installed on a different site?
+Is Group
+Job Title
+John Doe
+Junk
+Kanban Columns
+Kanban Fields
+Kanban Settings
+Last 6 Months
+Last Status Change Log
+Last modified
+Layout
+Lead
+Lead Details
+Lead Name
+Lead Owner
+Lead Owner cannot be same as the Lead Email Address
+Lead does not exist
+Lead not found
+Lead updated
+Leads
+Library
+Listen
+Load Default Columns
+Log out
+Lost
+Made A Reservation
+Make Call
+Make Private
+Make Public
+Make a Call
+Make a call
+Make attachment {0}
+Make private
+Make public
+Manager Access
+Mark all as read
+Member
+Mobile No should be a number
+Mobile no
+My Open Deals
+My Profile
+My Settings
+Negotiation
+New Address
+New Comment
+New Message
+New Note
+New Organization
+New Section
+New Task
+New WhatsApp Message
+New contact will be created based on the person's details
+New organization will be created based on the data in details section
+Next 6 Months
+Next Month
+Next Quarter
+Next Step
+Next Week
+Next Year
+No Answer
+No Title
+No contacts added
+No email set
+No mobile number set
+No new notifications
+No phone number set
+No primary contact set
+No templates found
+No website set
+No {0} Available
+No {0} Found
+No. of Employees
+Normal
+Not Available
+Not allowed to add contact to Deal
+Not allowed to convert Lead to Deal
+Not allowed to remove contact from Deal
+Not allowed to set primary contact for Deal
+Notes
+Notes View
+Notification Text
+Notification Type Doc
+Notification Type Doctype
+Old Parent
+Only PNG and JPG images are allowed
+Open Deal
+Open Lead
+Open in Portal
+Open website
+Order By
+Organization
+Organization Logo
+Organization Name
+Organization logo
+Organization updated
+Organizations
+Others
+Outbound Call
+Outgoing
+Parent CRM Territory
+Password cannot be reset by Demo User {}
+Payment Reminder
+Payment Reminder from Frappé - (#{{ name }})
+Pending Invites
+Person
+Phone number already exists for Lead {0}. Lead Owner is {1}
+Pin View
+Pinned
+Pinned Views
+Playback speed
+Please enable twilio settings before making a call.
+Please enter a valid URL
+Please select an existing contact
+Please select an existing organization
+Primary contact set
+Priorities
+Probability
+Profile
+Project Facilities
+Proposal/Quotation
+Public Views
+Qualification
+Qualified
+Ready to Close
+Record Calls
+Recording URL
+Reference Doc
+Regular Access
+Reject
+Remove
+Remove all
+Remove image
+Report an Issue
+Reset Changes
+Reset ERPNext Form Script
+Reset to Default
+Response By
+Response Details
+Response and Follow Up
+Restore Defaults
+Retake
+Ringing
+Ringing...
+Route Name
+Rows
+SLA
+SLA Creation
+SLA Name
+SLA Status
+SUBJECT
+Save Changes
+Saved Views
+Send Invites
+Send Invites To
+Send Template
+Send an email
+Series
+Set all as private
+Set all as public
+Set an organization
+Set as Primary Contact
+Set first name
+Show preview
+Showing
+Side Panel
+Simple Python Expression, Example: doc.status == 'Open' and doc.lead_source == 'Ads'
+Sort
+Standard Form Scripts can not be modified, duplicate the Form Script instead.
+Status Change Log
+Status is required
+Subject: {0}
+Support
+Switch camera
+TO
+Tasks
+Team
+Team Leader
+Team Member
+Territory
+Territory Manager
+Territory Name
+TextInput
+The Condition '{0}' is invalid: {1}
+There can only be one default priority in Priorities table
+This Lead has already been converted to a Deal
+This Month
+This Quarter
+This Week
+This Year
+This section is not editable
+This will restore (if not exist) all the default statuses, custom fields and layouts. Delete & Restore will delete default layouts and then restore them.
+Todo
+Toggle Full Width
+Toggle Theme
+Toggle on for preview
+Tomorrow
+Took a call with John Doe and discussed the new project.
+Total Holidays
+TwiML SID
+Twilio
+Twilio API credential creation error.
+Twilio Agents
+Twilio Number
+Twilio Settings
+Type your message here...
+Unit
+Unpin View
+Unqualified
+Unsaved Changes
+Untitled
+Update {0} Records
+Upload Attachment
+Upload Document
+Upload Image
+Upload Video
+Upload image
+User Forum
+View Name
+Visiting
+Website not found
+Weekly Off
+Welcome Message
+WhatsApp
+WhatsApp Templates
+Where
+Width can be in number, pixel or rem (eg. 3, 30px, 10rem)
+Won
+Workday
+Working Hours
+Yesterday
+You
+You have unsaved changes. Do you want to save them?
+You need to be in developer mode to edit a Standard Form Script
+Your assignment on task {0} has been removed by {1}
+added a
+amber
+assigned a new task {0} to you
+assigned a {0} {1} to you
+black
+button
+change
+changes from
+cyan
+div
+gray
+group_by
+has made a call
+has reached out
+hidden
+kanban
+label
+loadMore
+mentioned you in {0}
+pink
+private
+public
+received a whatsapp message in {0}
+teal
+to
+update:modelValue
+violet
+{0} assigned a {1} {2} to you
+{0} is a required field
+{0} is an invalid email address

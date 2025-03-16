@@ -1,0 +1,135 @@
+About,عن
+Accept,قبول
+Accept Invitation,قبول الدعوة
+Accepted,مقبول
+Accepted At,تم القبول في
+Account SID,معرف الحساب SID
+Add Field,إضافة حقل
+Add Filter,إضافة فلتر
+Add Section,إضافة قسم
+Add Sort,إضافة ترتيب
+Add Weekly Holidays,إضافة العطلات الأسبوعية
+Add to Holidays,إضافة إلى العطلات
+"Agent is unavailable to take the call, please call after some time.",الوكيل غير متاح لاستقبال المكالمة، يرجى الاتصال لاحقًا.
+Amount,المبلغ
+And,و
+Annual Revenue,الإيرادات السنوية
+Annual Revenue should be a number,يجب أن تكون الإيرادات السنوية رقمًا
+Apply,تطبيق
+Apply On,تطبيق على
+Apply To,تطبيق على
+Apps,التطبيقات
+Are you sure you want to delete this contact?,هل أنت متأكد أنك تريد حذف هذا الاتصال؟
+Are you sure you want to delete this organization?,هل أنت متأكد أنك تريد حذف هذه المنظمة؟
+Are you sure you want to delete this task?,هل أنت متأكد أنك تريد حذف هذه المهمة؟
+Attach a file,إرفاق ملف
+Auth Token,رمز المصادقة
+Automatic Assignment,التعيين التلقائي
+Back,رجوع
+Back to file upload,العودة إلى تحميل الملف
+Backlog,التراكم
+Budget,الميزانية
+Bulk Edit,تحرير جماعي
+Busy,مشغول
+CRM,إدارة علاقات العملاء
+CRM Call Log,سجل مكالمات CRM
+CRM Contacts,جهات اتصال CRM
+CRM Deal,صفقة CRM
+CRM Deal Status,حالة صفقة CRM
+CRM Lead,عميل متوقع CRM
+CRM Notification,إشعار CRM
+CRM Organization,منظمة CRM
+CRM Task,مهمة CRM
+Call Details,تفاصيل المكالمة
+Call Received By,تم استقبال المكالمة بواسطة
+Call with John Doe,مكالمة مع جون دو
+Caller,المتصل
+Calling...,جاري الاتصال...
+Calls,المكالمات
+Canceled,ملغي
+Capture,التقاط
+Change Status,تغيير الحالة
+Change image,تغيير الصورة
+Clear Assignment,إزالة التعيين
+Clear Sort,إزالة الترتيب
+Clear Table,إزالة الجدول
+Close Date,تاريخ الإغلاق
+Column Field,حقل العمود
+Communication Status,حالة الاتصال
+Company in ERPNext Site,الشركة في موقع ERPNext
+Contact Already Exists,جهة الاتصال موجودة بالفعل
+Contact Us,اتصل بنا
+Contact added,تمت إضافة جهة الاتصال
+Convert,تحويل
+Convert to Deal,تحويل إلى صفقة
+Converted,تم التحويل
+Converted successfully,تم التحويل بنجاح
+Create Deal,إنشاء صفقة
+Create Email Template,إنشاء قالب بريد إلكتروني
+Create Lead,إنشاء عميل متوقع
+Create Note,إنشاء ملاحظة
+Create Task,إنشاء مهمة
+Deal,الصفقة
+Deal Owner,مالك الصفقة
+Deal Status,حالة الصفقة
+Deal not found,لم يتم العثور على الصفقة
+Deals,الصفقات
+Default Priority,الأولوية الافتراضية
+Default Views,العروض الافتراضية
+Delete Task,حذف المهمة
+Delete View,حذف العرض
+Delete attachment,حذف المرفق
+Deleted successfully,تم الحذف بنجاح
+Desktop,سطح المكتب
+Device,الجهاز
+Disable,تعطيل
+Document not found,المستند غير موجود
+Done,تم
+Drag and drop files here or upload from,اسحب الملفات وأفلتها هنا أو قم بالتحميل من
+Duplicate View,تكرار العرض
+Duplicated Lead,تم تكرار العميل المحتمل
+Edit Profile Photo,تعديل صورة الملف الشخصي
+Edit Task,تعديل المهمة
+Email Templates,قوالب البريد الإلكتروني
+Email from Lead,بريد إلكتروني من العميل المحتمل
+Emails,رسائل البريد الإلكتروني
+Empty,فارغ
+End Time,وقت النهاية
+Enter {0},أدخل {0}
+Error Updating Deal,خطأ في تحديث الصفقة
+Export All {0} Record(s),تصدير جميع {0} السجلات
+Facilities,المرافق
+Facility,مرفق
+Failed to update Twilio call status,فشل في تحديث حالة مكالمة Twilio
+Field,الحقل
+Filter Duplicated Leads,تصفية العملاء المكررين
+First Name is mandatory,الاسم الأول إلزامي
+Follow Up,متابعة
+Form,النموذج
+Go to website,الذهاب إلى الموقع
+Group By Field,تجميع حسب الحقل
+Group By:,تجميع حسب:
+Hide Recording,إخفاء التسجيل
+Hide preview,إخفاء المعاينة
+Industry,الصناعة
+Invalid Email,بريد إلكتروني غير صالح
+Invite Members,دعوة الأعضاء
+Invite by email,دعوة عبر البريد الإلكتروني
+Job Title,المسمى الوظيفي
+Junk,غير هام
+Lead,عميل متوقع
+Lead Details,تفاصيل العميل المحتمل
+Lead Name,اسم العميل المحتمل
+Lead Owner,مالك العميل المحتمل
+Lead not found,لم يتم العثور على العميل المحتمل
+Leads,العملاء المحتملون
+Lost,مفقود
+Manager Access,وصول المدير
+Mark all as read,وضع الكل كمقروء
+Member,عضو
+Mobile No should be a number,يجب أن يكون رقم الهاتف رقمًا
+My Profile,ملفي الشخصي
+New Comment,تعليق جديد
+Next Month,الشهر القادم
+Organization,المنظمة
+Password cannot be reset by Demo User {},لا يمكن إعادة تعيين كلمة المرور بواسطة المستخدم التجريبي {}
