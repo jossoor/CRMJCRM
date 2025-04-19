@@ -94,6 +94,11 @@
    "fieldtype": "Tab Break",
    "label": "Organization"
   },
+  { "fieldname": "organization",
+    "fieldtype": "Link",
+    "label": "Organization",
+    "options": "Company"
+  },
   {
    "fieldname": "source",
    "fieldtype": "Link",
