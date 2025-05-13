@@ -28,9 +28,9 @@ class CRMLead(Document):
 		if self.has_value_changed("status"):
 			add_status_change_log(self)
 
-	def after_insert(self):
-		if self.lead_owner:
-			self.assign_agent(self.lead_owner)
+	#def after_insert(self):
+	#	if self.lead_owner:
+	#		self.assign_agent(self.lead_owner)
 
 	def before_save(self):
                 pass
@@ -64,8 +64,8 @@ class CRMLead(Document):
 			if not self.flags.ignore_email_validation:
 				validate_email_address(self.email, throw=True)
 
-			if self.email == self.lead_owner:
-				frappe.throw(_("Lead Owner cannot be same as the Lead Email Address"))
+			#if self.email == self.lead_owner:
+			#	frappe.throw(_("Lead Owner cannot be same as the Lead Email Address"))
 
 			if self.is_new() or not self.image:
 				self.image = has_gravatar(self.email)

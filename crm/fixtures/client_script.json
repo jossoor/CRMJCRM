@@ -75,5 +75,16 @@
   "name": "Duplicated Lead",
   "script": "frappe.ui.form.on('CRM Lead', {\n    validate: function(frm) {\n        frappe.call({\n            method: 'frappe.client.get_list',\n            args: {\n                doctype: 'CRM Lead',\n                filters: [\n                    ['phone', '=', frm.doc.phone],\n                    ['name', '!=', frm.doc.name] // Exclude the current document\n                ],\n                fields: ['name', 'duplicated', 'lead_owner'] // Include the owner field for notification\n            },\n            callback: function(response) {\n                if (response.message.length > 0) {\n                    // Update duplicated_label for the existing lead\n                    let existing_lead = response.message[0];\n                    frappe.msgprint({\n                        message: __('Phone number already exists for Lead {0}', [existing_lead.name]),\n                        indicator: 'orange',\n                        alert: true\n                    });\n                    frappe.msgprint({\n                        message: __('Lead Owner is {0}', [existing_lead.lead_owner]),\n                        indicator: 'orange',\n                        alert: true\n                    });\n                    frm.doc.duplicated = 1;\n                    frm.save();\n                }\n            }\n        });\n    }\n});\n",
   "view": "Form"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Client Script",
+  "dt": "CRM Lead",
+  "enabled": 0,
+  "modified": "2025-04-19 15:05:08.856537",
+  "module": "FCRM",
+  "name": "Duplicate filter",
+  "script": "frappe.listview_settings['CRM Lead'] = {\n    onload: function(listview) {\n        // تأكد من إضافة الفلتر فقط إذا لم يكن موجودًا بالفعل\n            listview.page.set_filter('duplicated', '!=', 1);\n        }\n    }\n};",
+  "view": "List"
  }
 ]
