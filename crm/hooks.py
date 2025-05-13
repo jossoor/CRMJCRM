@@ -163,9 +163,14 @@ doc_events = {
     "CRM Lead": {
 		"on_update": ["crm.forkanban.handle_status_change"],
         "before_insert": [
-			"crm.assignment_rule.assign_lead_to_sales_group",
+			
 			"crm.Duplication_handeling.mark_duplicates"
 		],
+	"validate": [
+			"crm.assignment_rule.assign_lead_to_sales_group"
+			
+		],
+	    
         # "after_insert": ["crm.assign_to.after_insert_assign_lead_to_sales_group"],
 	},
 	"User": {
