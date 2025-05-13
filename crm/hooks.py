@@ -166,7 +166,7 @@ doc_events = {
 			"crm.assignment_rule.assign_lead_to_sales_group",
 			"crm.Duplication_handeling.mark_duplicates"
 		],
-         "after_insert": ["crm.assign_to.after_insert_assign_lead_to_sales_group"],
+        # "after_insert": ["crm.assign_to.after_insert_assign_lead_to_sales_group"],
 	},
 	"User": {
 		"before_validate": ["crm.api.demo.validate_user"],
