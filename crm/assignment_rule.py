@@ -35,7 +35,7 @@ def assign_lead_to_sales_group(doc, method):
         sales_users = frappe.get_all(
             "User",
             filters={
-                "role_profile": "Sales",
+                "role_profile_name": "Sales",
                 "enabled": 1,
                 "is_absent": 0,  # Exclude users marked as absent
             },
