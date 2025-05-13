@@ -8,7 +8,7 @@ def assign_lead_to_sales_group(doc, method):
     Ensures load balancing among users and excludes absent users.
     If all users are absent, the lead is saved without assignment.
     """
-    if doc.is_new() and not doc.lead_owner:  # Only assign if the lead is new and lead_owner is empty
+    if not doc.lead_owner:  # Only assign if the lead is new and lead_owner is empty
         # Check if this lead is being imported via the Data Import doctype
         active_import = frappe.db.get_value(
             "Data Import",
