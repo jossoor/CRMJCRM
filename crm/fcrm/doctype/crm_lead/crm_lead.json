@@ -24,9 +24,9 @@
   "job_title",
   "city",
   "source",
+  "lead_owner",
   "automatic_assignmentt",
   "in_import",
-  "lead_owner",
   "feedback",
   "organization_tab",
   "section_break_uixv",
@@ -119,12 +119,6 @@
    "fieldname": "annual_revenue",
    "fieldtype": "Currency",
    "label": "Budget"
-  },
-  {
-   "fieldname": "lead_owner",
-   "fieldtype": "Link",
-   "label": "Lead Owner",
-   "options": "User"
   },
   {
    "fieldname": "source",
@@ -241,12 +235,18 @@
    "label": "Unit",
    "link_filters": "[[\"Property\",\"is_group\",\"=\",0]]",
    "options": "Property"
+  },
+  {
+   "fieldname": "lead_owner",
+   "fieldtype": "Link",
+   "label": "Lead owner",
+   "options": "User"
   }
  ],
  "image_field": "image",
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2025-01-11 08:56:26.294753",
+ "modified": "2025-05-13 14:12:14.861569",
  "modified_by": "Administrator",
  "module": "FCRM",
  "name": "CRM Lead",
