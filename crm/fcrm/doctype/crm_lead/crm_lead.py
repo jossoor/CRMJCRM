@@ -28,9 +28,9 @@ class CRMLead(Document):
 		if self.has_value_changed("status"):
 			add_status_change_log(self)
 
-	#def after_insert(self):
-	#	if self.lead_owner:
-	#		self.assign_agent(self.lead_owner)
+	def after_insert(self):
+		if self.lead_owner:
+			self.assign_agent(self.lead_owner)
 
 	def before_save(self):
                 pass
@@ -64,8 +64,8 @@ class CRMLead(Document):
 			if not self.flags.ignore_email_validation:
 				validate_email_address(self.email, throw=True)
 
-			#if self.email == self.lead_owner:
-			#	frappe.throw(_("Lead Owner cannot be same as the Lead Email Address"))
+			if self.email == self.lead_owner:
+				frappe.throw(_("Lead Owner cannot be same as the Lead Email Address"))
 
 			if self.is_new() or not self.image:
 				self.image = has_gravatar(self.email)
@@ -384,20 +384,21 @@ def convert_to_deal(lead):
 
         
 
-@frappe.whitelist()
-def validate_duplicate_phone(self, method=None):
-    existing_lead = frappe.db.get_value(
-        "CRM Lead",
-        {"phone": self.phone, "name": ("!=", self.name), "duplicated": ("!=", 1)},
-        ["name", "lead_owner"]
-    )
-    if existing_lead:
-        self.duplicated = 1
-        frappe.throw(
-            _("Phone number already exists for Lead {0}. Lead Owner is {1}").format(
-                existing_lead.lead_name, existing_lead.lead_owner
-            )
-        )
+#@frappe.whitelist()
+#def validate_duplicate_phone(self, method=None):
+#    existing_lead = frappe.db.get_value(
+#        "CRM Lead",
+#        {"phone": self.phone, "name": ("!=", self.name), "duplicated": ("!=", 1)},
+#        ["name", "lead_owner"]
+#    )
+#    if existing_lead:
+#        self.db_set("duplicated", 1)  # Ensures the value is saved
+#        frappe.throw(
+#            _("Phone number already exists for Lead {0}.").format(
+#                existing_lead[0], existing_lead[1]  # Extract values correctly
+#            )
+#        )
+
 #heba
 
 
